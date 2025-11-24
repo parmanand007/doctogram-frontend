@@ -1,0 +1,35 @@
+{
+  "name": "doctogram-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5000",
+    "lint": "eslint --ext .ts,.tsx src || true",
+    "start": "node server.js || true"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.0",
+    "@mui/material": "^5.14.0",
+    "@tanstack/react-query": "^5.0.0",
+    "axios": "^1.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.12.0",
+    "zustand": "^4.5.0",
+    "react-hook-form": "^7.0.0",
+    "zod": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.4.2",
+    "vite": "^5.2.0",
+    "eslint": "^8.45.0",
+    "@vitejs/plugin-react": "^5.1.1",
+    "vitest": "^1.0.0"
+  }
+}
